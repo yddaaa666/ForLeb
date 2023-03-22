@@ -20,7 +20,7 @@ export default function Main() {
   const noButton = useRef()
   const [currentAnswer, setCurrentAnswer] = useState(0);
   const answers = [
-    "Você está disposta a responder algumas perguntas?",
+    "Você está disposto a responder algumas perguntas?",
     "Você responderá com total sinceridade?",
     "Tem certeza de que deseja continuar?",
     "Namora comigo? 💍"
@@ -75,7 +75,7 @@ export default function Main() {
                     <b>Meu amor por você é igual um círculo, 360º"</b> - Danilo
                   </p>
 
-                  <p align="center">Te amo Bel, minha princesinha gatinha</p>
+                  <p align="center">Te amo Lebin, meu crackudo em UFC 🤍</p>
 
                   <img src={health} alt="" width={200} />
 
