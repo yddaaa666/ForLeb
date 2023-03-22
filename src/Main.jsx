@@ -1,6 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
-import emoji from "./assets/emoji.png";
+import emoji1 from "./assets/pag1.png";
+import emoji2 from "./assets/pag2.png";
+import emoji3 from "./assets/pag3.png";
+import emoji4 from "./assets/pag4.png";
 import health from "./assets/health.png";
 
 export default function Main() {
@@ -25,6 +28,12 @@ export default function Main() {
     "Tem certeza de que deseja continuar?",
     "Deixa eu te amar na boca? 👉👈"
   ]
+  const imgs = [
+    emoji1,
+    emoji2,
+    emoji3,
+    emoji4
+  ]
 
   const handleYesAnswerButton = () => {
     setCurrentAnswer(currentAnswer + 1)
@@ -42,7 +51,7 @@ export default function Main() {
 
   return (
     <div className="flex flex-col w-full min-h-screen items-center pt-14">
-      <img src={emoji} alt="" width={200} />
+      <img src={imgs[currentAnswer]} alt="" width={200} />
 
       <div className="flex flex-col mt-10 min-w-full items-center">
         <p className="text-sms font-semibold break-words" align="center">{answers[currentAnswer]}</p>
