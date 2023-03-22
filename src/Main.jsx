@@ -72,7 +72,7 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Meu amor por você é One Piece, não tem fim 🤍"</b> - Danilo
+                    <b>Meu amor por você é One Piece, não tem fim 🤍"</b> - Maria
                   </p>
 
                   <p align="center">Te amo Lebin, meu crackudo em UFC 🤍</p>
