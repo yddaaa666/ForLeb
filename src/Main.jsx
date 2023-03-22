@@ -23,7 +23,7 @@ export default function Main() {
     "Você está disposto a responder algumas perguntas?",
     "Você responderá com total sinceridade?",
     "Tem certeza de que deseja continuar?",
-    "Namora comigo? 💍"
+    "Deixa eu te amar na boca? 👉👈"
   ]
 
   const handleYesAnswerButton = () => {
@@ -72,14 +72,14 @@ export default function Main() {
               {!id ? (
                 <>
                   <p className="font-semibold" align="center">"
-                    <b>Meu amor por você é igual um círculo, 360º"</b> - Danilo
+                    <b>Meu amor por você é One Piece, não tem fim 🤍"</b> - Danilo
                   </p>
 
                   <p align="center">Te amo Lebin, meu crackudo em UFC 🤍</p>
 
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
+                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/yourlocalmarry/">@yourlocalmarry</a></p>
                 </>
               ) : (
                 <>
@@ -88,7 +88,7 @@ export default function Main() {
                   </p>
                   <img src={health} alt="" width={200} />
 
-                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/danilo.samw/">@danilo.samw</a></p>
+                  <p className="mt-10">Made with 🤍 by <a className="font-semibold text-red-300" href="https://www.instagram.com/yourlocalmarry/">@yourlocalmarry</a></p>
                 </>
               )}
             </div>
