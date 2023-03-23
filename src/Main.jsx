@@ -4,6 +4,7 @@ import emoji1 from "./assets/pag1.png";
 import emoji2 from "./assets/pag2.png";
 import emoji3 from "./assets/pag3.png";
 import emoji4 from "./assets/pag4.png";
+import emoji5 from "./assets/pag5.png";
 import health from "./assets/health.png";
 
 export default function Main() {
@@ -32,7 +33,8 @@ export default function Main() {
     emoji1,
     emoji2,
     emoji3,
-    emoji4
+    emoji4,
+    emoji5
   ]
 
   const handleYesAnswerButton = () => {
